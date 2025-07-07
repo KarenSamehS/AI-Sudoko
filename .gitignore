@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Tkinter images / generated assets (if any)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Logs and debug files
+*.log
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# VSCode or other IDE config folders
+.vscode/
+.idea/
+
+# MacOS / Windows OS files
+.DS_Store
+Thumbs.db
+
+# Python test cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled files
+*.so
+*.out
+
+# Build artifacts (if converted to exe using pyinstaller or similar)
+build/
+dist/
+*.spec
