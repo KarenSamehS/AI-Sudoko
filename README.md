@@ -1,7 +1,5 @@
 # 🧠 Sudoku Solver with GUI
 
-![Gameplay](assets/Sudokogameplay.png)
-
 A Python-based Sudoku solver and game built with **Tkinter**, featuring AI algorithms like **Backtracking**, **AC-3**, and heuristic enhancements. You can:
 - Watch the AI solve puzzles
 - Input your own puzzle
@@ -50,15 +48,6 @@ A Python-based Sudoku solver and game built with **Tkinter**, featuring AI algor
 
 ---
 
-## ⚡ Sample Run Stats
-
-| Difficulty | AC-3 Time | Backtracking Steps |
-|------------|-----------|--------------------|
-| Easy       | 0.28 sec  | 0                  |
-| Medium     | 2.16 sec  | 0                  |
-| Hard       | 2.93 sec  | 0                  |
-
----
 
 ## 🚀 Getting Started
 
@@ -69,10 +58,9 @@ A Python-based Sudoku solver and game built with **Tkinter**, featuring AI algor
 
 ### ▶️ Run the Program
 ```bash
-python sudoku_gui.py
+python main.py
 ```
 
-Replace `sudoku_gui.py` with the name of your main Python file.
 
 ---
 
@@ -80,11 +68,10 @@ Replace `sudoku_gui.py` with the name of your main Python file.
 
 ```
 SudokuGame/
-├── sudoku_gui.py
-├── solver.py
-├── utils.py
+├── main.py
+├── Arc_Consistency.py
 ├── assets/
-│   └── gameplay.png
+│   └── Sudokogameplay.png
 ├── README.md
 └── .gitignore
 ```
@@ -93,21 +80,7 @@ SudokuGame/
 
 ## 📸 Gameplay Screenshot
 
-> ![Gameplay](assets/gameplay.png)
+![Gameplay](assets/Sudokogameplay.png)
 
-Make sure the `assets/gameplay.png` file is committed in your repo so GitHub can render it.
-
----
-
-## 📌 Future Work
-
-- Add parallelization to solver
-- Create web-based version
-- Enhance difficulty classification
-- Add hint system for players
 
 ---
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
